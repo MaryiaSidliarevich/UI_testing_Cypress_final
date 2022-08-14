@@ -1,0 +1,11 @@
+export const setsURL: string = "https://sushihouse.by/catalog/sety/";
+export const sushiURL: string = "https://sushihouse.by/catalog/sushi-i-rolly/";
+export const wokURL: string = "https://sushihouse.by/catalog/wok/";
+export const lunchMenuURL: string = "https://sushihouse.by/catalog/lanch-menyu/";
+export const hotDishesURL: string = "https://sushihouse.by/catalog/goryachie-blyuda/";
+export const dessertsURL: string = "https://sushihouse.by/catalog/deserty/";
+export const drinksURL: string = "https://sushihouse.by/catalog/napitki/";
+export const sousesURL: string = "https://sushihouse.by/catalog/sousy/";
+export const wokConstructorURL: string = "https://sushihouse.by/catalog/wok-constructor/";
+export const orderURL: string = "https://sushihouse.by/checkout/";
+export const mainPageURL: string = "https://sushihouse.by/";

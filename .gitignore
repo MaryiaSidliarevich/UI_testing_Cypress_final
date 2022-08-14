@@ -1,0 +1,8 @@
+node_modules/
+.idea
+_MACOSX
+.DS_Store
+cypress/videos
+screenshots
+allure-report
+allure-results

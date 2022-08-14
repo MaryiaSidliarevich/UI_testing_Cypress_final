@@ -1,0 +1,11 @@
+export const sets: string = 'a[href="/catalog/sety/"]';
+export const sushi: string = 'a[href="/catalog/sushi-i-rolly/"]';
+export const wok: string = 'a[href="/catalog/wok/"]';
+export const lunchMenu: string = 'a[href="/catalog/lanch-menyu/"]';
+export const hotDishes: string = 'a[href="/catalog/goryachie-blyuda/"]';
+export const desserts: string = 'a[href="/catalog/deserty/"]';
+export const drinks: string = 'a[href="/catalog/napitki/"]';
+export const souses: string = 'a[href="/catalog/sousy/"]';
+export const wokConstructor: string = 'a[href="/catalog/wok-constructor/"]';
+export const fish: string = 'a[href="/catalog/fish/"]';
+export const more: string = ".nav__dropdown-wrapper";

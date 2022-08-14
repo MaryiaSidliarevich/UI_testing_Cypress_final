@@ -1,0 +1,6 @@
+{
+  "baseUrl": "https://sushihouse.by/",
+  "viewportWidth": 1260,
+  "viewportHeight": 1080,
+  "defaultCommandTimeout": 5000
+}

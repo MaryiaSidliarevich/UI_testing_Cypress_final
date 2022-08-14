@@ -1,0 +1,9 @@
+export const vk: string = 'a[data-id="vk"]';
+export const fb: string = 'a[data-id="fb"]';
+export const tw: string = 'a[data-id="tw"]';
+export const ok: string = 'a[data-id="ok"]';
+export const unistar: string = '._1gTyCXIeafnP9KFd4QlL1C';
+export const giftButton: string = '.gift-toggle';
+export const thirdGift: string = '.limit3';
+export const secondGift: string = '.limit2';
+export const firstGift: string = '.limit1';

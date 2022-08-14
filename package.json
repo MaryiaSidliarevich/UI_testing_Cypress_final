@@ -1,0 +1,21 @@
+{
+  "name": "ui_testing_final",
+  "version": "1.0.0",
+  "description": "UI_testing",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "npx cypress open",
+    "cypress:run": "npx cypress run --env allure=true --headed",
+    "allure:report": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open"
+  },
+  "author": "Maryia Sidliarevich",
+  "license": "ISC",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.28.4",
+    "@types/node": "^18.6.5",
+    "allure-commandline": "^2.18.1",
+    "cypress": "^9.7.0",
+    "typescript": "^4.7.4"
+  }
+}
