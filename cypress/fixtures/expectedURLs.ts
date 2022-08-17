@@ -8,4 +8,3 @@ export const drinksURL: string = "https://sushihouse.by/catalog/napitki/";
 export const sousesURL: string = "https://sushihouse.by/catalog/sousy/";
 export const wokConstructorURL: string = "https://sushihouse.by/catalog/wok-constructor/";
 export const orderURL: string = "https://sushihouse.by/checkout/";
-export const mainPageURL: string = "https://sushihouse.by/";
