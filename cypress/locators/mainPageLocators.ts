@@ -7,3 +7,5 @@ export const giftButton: string = '.gift-toggle';
 export const thirdGift: string = '.limit3';
 export const secondGift: string = '.limit2';
 export const firstGift: string = '.limit1';
+export const popup: string = '.popup-window-content';
+export const popupCloseButton: string = '.popup-window-close-icon';

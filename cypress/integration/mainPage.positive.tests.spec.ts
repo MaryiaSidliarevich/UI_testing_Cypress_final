@@ -15,8 +15,17 @@ describe("Positive tests for checking social media elements on the main page", (
 
     it("Assert social media elements at the bottom of the page are clickable", (): void => {
         cy.CheckElementClickable(locators.fb);
+    });
+
+    it("Assert social media elements at the bottom of the page are clickable", (): void => {
         cy.CheckElementClickable(locators.tw);
+    });
+
+    it("Assert social media elements at the bottom of the page are clickable", (): void => {
         cy.CheckElementClickable(locators.ok);
+    });
+
+    it("Assert social media elements at the bottom of the page are clickable", (): void => {
         cy.CheckElementClickable(locators.vk);
     });
 });

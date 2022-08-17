@@ -1,5 +1,6 @@
 import * as basketLocators from "../locators/basketLocators";
 import * as enterLocators from "../locators/enterLocators";
+import * as mainPageLocators from "../locators/mainPageLocators";
 
 Cypress.on('uncaught:exception', (): boolean => {
     return false;
@@ -25,6 +26,8 @@ Cypress.Commands.add("CheckElementRedirect", (locator: string, expectedURL: stri
 
 Cypress.Commands.add("CheckProductInBasket", (addToBasketLocator: string): void => {
     cy.get(addToBasketLocator).first().click();
+    cy.get(mainPageLocators.popup).should("exist");
+    cy.get(mainPageLocators.popupCloseButton).click();
     cy.get(basketLocators.basketButton).click();
     cy.get(basketLocators.productInBasket).should("be.visible");
 });
