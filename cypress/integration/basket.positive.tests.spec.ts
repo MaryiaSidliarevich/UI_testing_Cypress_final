@@ -7,11 +7,7 @@ describe("Positive tests for checking not empty basket functionality", (): void 
         cy.OpenSetsPage();
     });
 
-    it("Assert product appears in the basket after adding", (): void => {
-        cy.CheckProductInBasket(locators.addToCartButton);
-    });
-
-    it("Assert user redirects to order page after adding product to the basket and clicking to 'Оформить заказ'", (): void => {
+    it("Assert product appears in the basket after adding and user redirects to order page after clicking to 'Оформить заказ' ", (): void => {
         cy.CheckProductInBasket(locators.addToCartButton);
         cy.CheckMakeOrder(orderURL);
     });
